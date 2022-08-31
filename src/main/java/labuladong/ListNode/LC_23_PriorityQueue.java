@@ -3,6 +3,7 @@ package labuladong.ListNode;
 import labuladong.ListNode.model.ListNode;
 import org.junit.Test;
 
+import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -56,13 +57,27 @@ public class LC_23_PriorityQueue {
 
     /**
      * 方法3:K个指针分别指向K个链表，并求Kmin
-     * 优先级队列
+     * 优先级队列，其中按照二叉堆自动排序
      */
     public ListNode mergeKLists_F3(ListNode[] lists) {
         Queue<ListNode> queue = new PriorityQueue<>((v1, v2) -> v1.val - v2.val);
+        for (ListNode node : lists) {
+            if (node != null) {
+                queue.offer(node);
+            }
+        }
+        ListNode dummy = new ListNode(0);
+        ListNode cur = dummy;
+        while (!queue.isEmpty()) {
+            ListNode minNode = queue.poll();
+            cur.next = minNode;
+            cur = minNode;
+            if (minNode.next != null) {
+                queue.offer(minNode.next);
+            }
+        }
 
-
-        return null;
+        return dummy.next;
     }
 
 
