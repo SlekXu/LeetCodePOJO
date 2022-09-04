@@ -1,9 +1,9 @@
-package labuladong.ListNode.model;
+package model;
 
 /**
  * @Author Slek
  * @Date 2022/8/30 23:07
- * @Description TODO
+ * @Description ListNode
  */
 public class ListNode {
     public int val;

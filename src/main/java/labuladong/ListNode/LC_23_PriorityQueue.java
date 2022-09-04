@@ -1,9 +1,8 @@
 package labuladong.ListNode;
 
-import labuladong.ListNode.model.ListNode;
+import model.ListNode;
 import org.junit.Test;
 
-import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
 

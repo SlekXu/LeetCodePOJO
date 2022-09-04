@@ -1,7 +1,7 @@
 package Selected100;
 
 
-import Selected100.api.ListNode;
+import model.ListNode;
 import org.junit.Test;
 
 public class LC_206 {

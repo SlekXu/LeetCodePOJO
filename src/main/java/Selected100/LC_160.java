@@ -1,7 +1,7 @@
 package Selected100;
 
 
-import Selected100.api.ListNode;
+import model.ListNode;
 
 //相交链表
 public class LC_160 {

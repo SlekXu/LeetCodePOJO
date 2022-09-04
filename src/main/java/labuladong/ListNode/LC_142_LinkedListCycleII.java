@@ -1,8 +1,6 @@
 package labuladong.ListNode;
 
-import labuladong.ListNode.model.ListNode;
-
-import java.util.List;
+import model.ListNode;
 
 /**
  * @Author Slek

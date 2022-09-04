@@ -1,6 +1,6 @@
 package labuladong.ListNode;
 
-import labuladong.ListNode.model.ListNode;
+import model.ListNode;
 
 /**
  * @Author Slek

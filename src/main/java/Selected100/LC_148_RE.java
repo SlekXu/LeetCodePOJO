@@ -1,6 +1,6 @@
 package Selected100;
 
-import Selected100.api.ListNode;
+import model.ListNode;
 
 public class LC_148_RE {
 
