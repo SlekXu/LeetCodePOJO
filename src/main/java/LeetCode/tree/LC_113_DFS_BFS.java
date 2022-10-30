@@ -48,7 +48,6 @@ public class LC_113_DFS_BFS {
             return res;
         }
 
-
         Queue<TreeNode> nodeQueue = new LinkedList<>();             //存放节点队列
         Queue<List<Integer>> pathQueue = new LinkedList<>();        //存放路径队列
         nodeQueue.add(root);
@@ -69,13 +68,13 @@ public class LC_113_DFS_BFS {
                 node.left.val += node.val;  //将当前节点的值，累加到左子节点上
                 nodeQueue.offer(node.left); //左子节点入队
 
-                tmpPath.remove(tmpPath.size() - 1); //TODO 不理解
+                tmpPath.remove(tmpPath.size() - 1); //把左节点挪开，为了下一步放右节点
             }
 
             if (node.right != null) {
                 tmpPath.add(node.right.val);
                 pathQueue.offer(new LinkedList<>(tmpPath));
-                node.right.val = node.val;
+                node.right.val += node.val;
                 nodeQueue.offer(node.right);
             }
         }

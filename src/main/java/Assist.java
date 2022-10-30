@@ -1,5 +1,3 @@
-package LeetCode.tree;
-
 /**
  * @Author Slek
  * @Description 二叉树合集说明
