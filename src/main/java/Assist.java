@@ -8,4 +8,13 @@
  * {@link LeetCode.tree.LC_112_RE }         路径总和，递归
  * {@link LeetCode.tree.LC_113_DFS_BFS }    路径总和，深度优先或广度优先，递归回溯
  * {@link LeetCode.tree.LC_114_RE }         将二叉树拉为链表，递归思维
+ *
+ *
+ *
+ *
+ *
+ *
+ * @Description 二分法
+ * ========================================================================
+ * {@link Daily.LC_792 }        判断子序列
  */
