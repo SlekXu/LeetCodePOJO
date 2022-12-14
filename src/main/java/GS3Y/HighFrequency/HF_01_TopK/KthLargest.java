@@ -36,6 +36,11 @@ public class KthLargest {
         return queue.peek();
     }
 
+
+    @Test
+    public void  test(){
+
+    }
 }
 
 
