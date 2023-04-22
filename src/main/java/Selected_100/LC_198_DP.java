@@ -1,8 +1,6 @@
-package Selected100;
+package Selected_100;
 
 import org.junit.Test;
-
-import java.util.Map;
 
 //非连续和的最大值
 public class LC_198_DP {

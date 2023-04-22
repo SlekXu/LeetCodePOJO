@@ -1,4 +1,4 @@
-package Selected100;
+package Selected_100;
 
 public class LC_394 {
 }
